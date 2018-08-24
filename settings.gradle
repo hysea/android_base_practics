@@ -1,1 +1,1 @@
-include ':app', ':inputmethod'
+include ':app', ':inputmethod', ':database', ':rxmodule', ':animator'
