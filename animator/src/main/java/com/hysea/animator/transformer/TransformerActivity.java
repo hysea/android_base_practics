@@ -40,7 +40,7 @@ public class TransformerActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 4;
+            return IMAGES.length;
         }
 
         @Override
