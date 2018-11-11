@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hysea.animator">
+    package="com.hysea.customview">
 
     <application
         android:allowBackup="true"
@@ -16,9 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".transformer.TransformerActivity" />
-        <activity android:name=".propertyAnimator.PropertyAnimatorActivity" />
-        <activity android:name=".LottieActivity"></activity>
+        <activity android:name=".ViewPropertyActivity" />
+        <activity android:name=".matrix.MatrixActivity"></activity>
     </application>
 
 </manifest>

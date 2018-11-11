@@ -1,1 +1,1 @@
-include ':app', ':inputmethod', ':database', ':rxmodule', ':animator', ':media', ':network', ':materialdesign'
+include ':app', ':inputmethod', ':database', ':rxmodule', ':animator', ':media', ':network', ':materialdesign', ':customview', ':webdemo'

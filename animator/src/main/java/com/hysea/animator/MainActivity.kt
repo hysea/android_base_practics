@@ -20,4 +20,8 @@ class MainActivity : AppCompatActivity() {
     fun toPropertyAnimator(view: View) {
         startActivity(Intent(this, PropertyAnimatorActivity::class.java))
     }
+
+    fun toLottie(view: View) {
+        startActivity(Intent(this, LottieActivity::class.java))
+    }
 }

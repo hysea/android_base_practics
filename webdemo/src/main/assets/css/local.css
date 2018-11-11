@@ -1,0 +1,62 @@
+/*@font-face {
+    font-family: Impact;
+    src: url(file:///android_asset/font/FZYANS_JW.ttf);
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f1f0;
+}
+
+.main-text {
+    font-family: Impact;
+    font-size: .34rem;
+    color: rgba(53, 53, 53, 1);
+    line-height: .45rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    box-sizing: border-box;
+}
+
+.main-text img {
+      max-width: 100%;
+      height: auto;
+      margin-top: .2rem;
+      margin-bottom: .2rem;
+   }
+
+.main-text video {
+    width: 100%;
+    height: 4.2rem;
+}
+
+.main-text blockquote {
+    position: relative;
+    margin: 0 0 0 0.4rem;
+}
+
+.main-text blockquote p::before {
+    content: '';
+    width: .08rem;
+    background-color: #E7E7E7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -.4rem;
+}
+
+ol, ul {
+    padding-left: .4rem;
+}
+
+p {
+    text-align: justify;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}

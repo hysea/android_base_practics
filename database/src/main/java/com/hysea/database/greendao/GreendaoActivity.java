@@ -31,7 +31,7 @@ public class GreendaoActivity extends AppCompatActivity {
     }
 
     private User getUser() {
-        int age = 0;
+        int age;
         try {
             age = Integer.parseInt(etAge.getText().toString());
         } catch (NumberFormatException ex) {
